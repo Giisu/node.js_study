@@ -1,18 +1,19 @@
 {
   "name": "node_egoing",
   "version": "1.0.0",
-  "description": "",
   "main": "template.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon form.js"
+    "dev": "nodemon post.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "jade": "^1.11.0",
     "nodemon": "^3.0.3",
     "underscore": "^1.13.6"
-  }
+  },
+  "description": ""
 }
